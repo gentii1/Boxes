@@ -1,0 +1,43 @@
+.main_content{
+    
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: red;
+}
+/* .boxes_wrapper{
+    background-color: burlywood;
+} */
+.box{
+    float: left;
+    width: 50%;
+    width: calc(50% - 20px);
+    display: inline-block;
+    background-color: rgb(201, 200, 195);
+    margin: 10px;
+    max-height: 300px;
+}
+.box__thumbnail {
+    height: 300px;
+}
+.box__thumbnail img {
+    height: 300px;
+    width: 300px;;
+    object-fit:cover
+    
+}
+
+.box__content{
+    float: right;
+    margin: 20px;
+    background-color: red;
+    width: 200px;
+}
+
+.box__content h1{;
+    font-size: 26px;
+    color: black;
+}
